@@ -239,6 +239,13 @@ h1 {
     margin-top: 0.5rem;
 }
 
+.blog-entry-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+}
+
 .project-content p {
     font-family: var(--font-heading);
     font-size: 1.4rem;
