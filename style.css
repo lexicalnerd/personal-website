@@ -237,7 +237,6 @@ h1 {
     color: var(--accent-gold);
     display: inline-block;
     padding: 2px 8px;
-    border: 1px solid var(--accent-gold);
     border-radius: 4px;
     margin-top: 0.5rem;
 }
