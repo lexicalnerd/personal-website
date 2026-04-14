@@ -227,6 +227,18 @@ h1 {
     width: fit-content;
 }
 
+.status-badge {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent-gold);
+    display: inline-block;
+    padding: 2px 8px;
+    border: 1px solid var(--accent-gold);
+    border-radius: 4px;
+    margin-top: 0.5rem;
+}
+
 .project-content p {
     font-family: var(--font-heading);
     font-size: 1.4rem;
