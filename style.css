@@ -246,6 +246,55 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
+.blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.blog-item {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--surface-color);
+    transition: all 0.3s ease;
+}
+
+.blog-item:hover {
+    border-color: var(--accent-gold);
+}
+
+.blog-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-secondary);
+}
+
+.blog-title {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.blog-excerpt {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+}
+
 .project-content p {
     font-family: var(--font-heading);
     font-size: 1.4rem;
